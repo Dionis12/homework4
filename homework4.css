@@ -1,0 +1,35 @@
+#parent1 {
+    position: relative;
+    left: 50px;
+    border: 3px solid orange;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    text-align:center;
+  }
+  
+  #parent2 {
+    position: static;
+    border: 3px solid blue;
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
+    text-align:center;
+  }
+  
+  #parent3 {
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    border: 3px solid green;
+  
+  }
+  
+  #child3 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 400px;
+    height: 150px;
+    border: 3px solid red;
+  }
